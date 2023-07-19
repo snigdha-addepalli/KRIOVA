@@ -1,0 +1,13 @@
+create table Emp (EmployeeId int,EmployeeName varchar(50),DateOfBirth varchar(50),Email varchar(50),PhoneNumber int,Street varchar(50),City varchar(50),State varchar(50),Country varchar(50),Pincode int);
+insert into Emp values(1,'Rahman','29-06-2003','moabra12@gmail.com',8978894094,'First Lancer Rd','Hyderabad','Telangana','India',500028);
+insert into Emp values(2,'Rahma','28-03-2004','moabra1@gmail.com',8978894095,'First Lancer R','Mumbai','Tlaga','India',500028);
+insert into Emp values(3,'Rahm','27-04-2005','moabra@gmail.com',8978894096,'First Lancer','Chennai','Tlnaa','India',500028);
+insert into Emp values(4,'Rah','26-05-2006','moabr@gmail.com',8978894097,'First Lance','Chilkur','Tanana','India',500028);
+insert into Emp values(5,'Ra','25-12-2007','moab@gmail.com',8978894098,'First Lanc','Kolkata','Tangna','India',500028);
+insert into Emp values(6,'R','24-11-2008','moa@gmail.com',8978894099,'First Lan','Hyderaba','lngana','India',500028);
+insert into Emp values(7,'Abdur','23-10-2009','mo@gmail.com',8978894093,'First La','Hydera','langana','India',500028);
+insert into Emp values(8,'Abdu','22-09-2010','m@gmail.com',8978894092,'First L','Hyder','Telanga','India',500028);
+insert into Emp values(9,'Abd','21-08-2011','moabra123@gmail.com',8978894091,'First','Hydbad','Telgana','India',500028);
+insert into Emp values(10,'Ab','20-07-2012','moabra124@gmail.com',8978894090,'Firs','Habad','Telangna','India',500028);
+select * from Emp;
+drop table Emp;
